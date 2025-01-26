@@ -157,26 +157,32 @@ const CONFIG = {
   //     link: 'https://maven.com/certificate/mDzHjmIU',
   //   },
   // ],
-  // publications: [
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: '',
-  //     journalName: 'Journal Name',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: 'Conference Name',
-  //     journalName: '',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
-  // ],
+  publications: [
+    {
+      title: 'Light diffusing device for photodynamic therapy treatment in the anogenital region',
+      conferenceName: 'WO2023031496A1, ES1280797U',
+      journalName: '',
+      authors: 'J.M. Caro Muñoz, S. Ruiz-Valdepeñas, A. Azabal Agudo',
+      link: 'https://patents.google.com/patent/WO2023031496A1/en',
+      description: '',
+    },
+    {
+      title: 'Automatic ostomy baseplate cutting device',
+      conferenceName: 'WO2020016471A1, ES2737862B2',
+      journalName: '',
+      authors: 'F. J. Rivera García, P. De La Quintana Jiménez, A. Azabal Agudo, S. Ruiz-Valdepeñas',
+      link: 'https://patents.google.com/patent/WO2020016471A1/en',
+      description: '',
+    },
+    {
+      title: 'Integrated cap and seal system',
+      conferenceName: 'WO2017216530A1, GB201610368D0, EP3472061A1, US11529288B2, JP2019519310A',
+      journalName: '',
+      authors: 'W. Richardson, S. Ruiz-Valdepeñas, D. Strange, F. Huhn',
+      link: 'https://patents.google.com/patent/WO2017216530A1',
+      description: '',
+    },
+  ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -208,11 +214,12 @@ const CONFIG = {
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'night',
-      'luxury',
-      'black',
-      'autumn',
-      'dark',
       'light',
+      'dark',
+      'black',
+      'synthwave',
+      // 'luxury',
+      // 'autumn',
       // 'procyon',
       // 'coffee',
       // 'aqua',
@@ -227,7 +234,6 @@ const CONFIG = {
       // 'forest',
       // 'emerald',
       // 'dracula',
-      // 'synthwave',
       // 'retro',
       // 'cyberpunk',
       // 'valentine',
