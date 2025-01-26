@@ -58,7 +58,7 @@
 ✓ [Publication Section](#publications)  
 ✓ [Blog Posts Section](#blog-posts)
 
-To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
+To view a live example, **[click here](https://santiago-r.github.io/)**.
 
 <p align="center">
   <img src="https://github.com/arifszn/gitprofile/assets/45073703/406e8368-415a-42ef-89c5-d43cc8bbeb19" alt="Themes">
