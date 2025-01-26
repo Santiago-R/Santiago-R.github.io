@@ -29,26 +29,26 @@ const CONFIG = {
       // },
     },
     // external: {
-      // header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      // projects: [
-      //   {
-      //     title: 'Project Name',
-      //     description:
-      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      //     imageUrl:
-      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-      //     link: 'https://example.com',
-      //   },
-      //   {
-      //     title: 'Project Name',
-      //     description:
-      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      //     imageUrl:
-      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-      //     link: 'https://example.com',
-      //   },
-      // ],
+    //   header: 'My Projects',
+    //   To hide the `External Projects` section, keep it empty.
+    //   projects: [
+    //     {
+    //       title: 'Project Name',
+    //       description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //       imageUrl:
+    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    //       link: 'https://example.com',
+    //     },
+    //     {
+    //       title: 'Project Name',
+    //       description:
+    //         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+    //       imageUrl:
+    //         'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+    //       link: 'https://example.com',
+    //     },
+    //   ],
     // },
   },
   seo: {
@@ -100,40 +100,47 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Insulcloud 360º',
+      position: 'Machine Learning R&D Engineer',
+      from: 'November 2021',
       to: 'Present',
-      companyLink: 'https://example.com',
+      // companyLink: 'https://insulcloud.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Huru',
+      position: 'Machine Learning Lead',
+      from: 'October 2022',
+      to: 'September 2023',
+      // companyLink: 'https://example.com',
     },
-  ],
-  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      company: 'Up Devices',
+      position: 'Co-founder',
+      from: 'March 2016',
+      to: 'September 2022',
+      // companyLink: 'https://example.com',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Minnesota',
+      degree: 'Master of Science (MS), Mechanical Engineering',
+      from: '2011',
+      to: '2012',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Universidad de Castilla-La Mancha',
+      degree: 'Bachelor of Science, Industrial Engineering',
+      from: '2007',
+      to: '2012',
+    },
+  ],
+  certifications: [
+    {
+      name: 'Mastering LLMs: A Conference for Developers and Data Scientists',
+      body: 'Parlance Labs @ Maven',
+      year: 'Jun 2024',
+      link: 'https://maven.com/certificate/mDzHjmIU',
     },
   ],
   publications: [
@@ -159,19 +166,19 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  // googleAnalytics: {
+  //   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+  // },
+  // // Track visitor interaction and behavior. https://www.hotjar.com
+  // hotjar: {
+  //   id: '',
+  //   snippetVersion: 6,
+  // },
   themeConfig: {
-    defaultTheme: 'Halloween',
+    defaultTheme: 'luxury',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -182,39 +189,39 @@ const CONFIG = {
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
-    displayAvatarRing: true,
-
+    displayAvatarRing: false,
+    
     // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
+      'luxury',
       'sunset',
       'cupcake',
       'black',
       'halloween',
       'bumblebee',
-      'emerald',
-      'corporate',
+      'coffee',
       'business',
+      'corporate',
+      'wireframe',
+      'lofi',
       'forest',
+      'emerald',
       'synthwave',
       'retro',
       'cyberpunk',
       'valentine',
       'garden',
       'aqua',
-      'lofi',
       'pastel',
       'fantasy',
-      'wireframe',
-      'luxury',
       'dracula',
       'cmyk',
       'autumn',
       'acid',
       'lemonade',
       'night',
-      'coffee',
       'winter',
       'dim',
       'nord',
