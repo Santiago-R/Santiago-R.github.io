@@ -162,7 +162,7 @@ const CONFIG = {
       title: 'Light diffusing device for photodynamic therapy treatment in the anogenital region',
       conferenceName: 'WO2023031496A1, ES1280797U',
       journalName: '',
-      authors: 'J.M. Caro Muñoz, S. Ruiz-Valdepeñas, A. Azabal Agudo',
+      authors: 'J.M. Muñoz Caro, S. Ruiz-Valdepeñas, A. Azabal Agudo',
       link: 'https://patents.google.com/patent/WO2023031496A1/en',
       description: '',
     },
