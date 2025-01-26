@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1SItY6l2v4sfkZQv3lCn--W74WlR0rHTs/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     // 'PHP',
@@ -120,6 +120,20 @@ const CONFIG = {
       to: 'September 2022',
       // companyLink: 'https://example.com',
     },
+    {
+      company: 'The Technology Partnership plc (TTP)',
+      position: 'Consultant',
+      from: 'September 2015',
+      to: 'February 2016',
+      // companyLink: 'https://example.com',
+    },
+    {
+      company: 'Dyson',
+      position: 'Research Engineer',
+      from: 'April 2013',
+      to: 'August 2015',
+      // companyLink: 'https://example.com',
+    },
   ],
   educations: [
     {
@@ -135,14 +149,14 @@ const CONFIG = {
       to: '2012',
     },
   ],
-  certifications: [
-    {
-      name: 'Mastering LLMs: A Conference for Developers and Data Scientists',
-      body: 'Parlance Labs @ Maven',
-      year: 'Jun 2024',
-      link: 'https://maven.com/certificate/mDzHjmIU',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Mastering LLMs: A Conference for Developers and Data Scientists',
+  //     body: 'Parlance Labs @ Maven',
+  //     year: 'Jun 2024',
+  //     link: 'https://maven.com/certificate/mDzHjmIU',
+  //   },
+  // ],
   // publications: [
   //   {
   //     title: 'Publication Title',
