@@ -22,7 +22,7 @@
   </p>
 
   <p align="center">
-    <a href="https://arifszn.github.io/gitprofile">View Demo</a>
+    <a href="https://santiago-r.github.io/">View Demo</a>
     ·
     <a href="https://github.com/arifszn/gitprofile/issues">Report Bug</a>
     ·
