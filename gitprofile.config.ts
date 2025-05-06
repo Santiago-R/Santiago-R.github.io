@@ -105,7 +105,7 @@ const CONFIG = {
       from: 'March 2025',
       to: 'Present',
       // companyLink: ''
-    }
+    },
     {
       company: 'Insulcloud 360º',
       position: 'Machine Learning R&D Engineer',
