@@ -100,10 +100,17 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Innitius',
+      position: 'Head of Data & ML',
+      from: 'March 2025',
+      to: 'Present',
+      // companyLink: ''
+    }
+    {
       company: 'Insulcloud 360º',
       position: 'Machine Learning R&D Engineer',
       from: 'November 2021',
-      to: 'Present',
+      to: 'March 2025',
       // companyLink: 'https://insulcloud.com/',
     },
     {
