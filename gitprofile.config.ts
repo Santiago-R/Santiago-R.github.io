@@ -103,7 +103,7 @@ const CONFIG = {
       company: 'Innitius',
       position: 'Head of Data & ML',
       from: 'March 2025',
-      to: 'Present',
+      to: 'April 2026',
       // companyLink: 'https://www.innitius.com/'
     },
     {
