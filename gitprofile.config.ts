@@ -80,8 +80,8 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1FggXaWY-NwEn8hnf5O7wCU4aWgPCftiK/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
-  },
+      'https://drive.google.com/file/d/1OPLFT8kUTdobw6jJXi9MJ8t_1F9g8som/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+    },
   skills: [
     // 'PHP',
     // 'Laravel',
@@ -104,7 +104,7 @@ const CONFIG = {
       position: 'Head of Data & ML',
       from: 'March 2025',
       to: 'Present',
-      // companyLink: ''
+      // companyLink: 'https://www.innitius.com/'
     },
     {
       company: 'Insulcloud 360º',
@@ -118,28 +118,28 @@ const CONFIG = {
       position: 'Machine Learning Lead',
       from: 'October 2022',
       to: 'September 2023',
-      // companyLink: 'https://example.com',
+      // companyLink: 'https://www.hurulabs.com/',
     },
     {
       company: 'Up Devices',
       position: 'Co-founder',
       from: 'March 2016',
       to: 'September 2022',
-      // companyLink: 'https://example.com',
+      // companyLink: '',
     },
     {
       company: 'The Technology Partnership plc (TTP)',
       position: 'Consultant',
       from: 'September 2015',
       to: 'February 2016',
-      // companyLink: 'https://example.com',
+      // companyLink: 'https://www.ttpgroup.com/',
     },
     {
       company: 'Dyson',
       position: 'Research Engineer',
       from: 'April 2013',
       to: 'August 2015',
-      // companyLink: 'https://example.com',
+      // companyLink: 'https://www.dyson.com/',
     },
   ],
   educations: [
