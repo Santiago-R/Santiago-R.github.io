@@ -205,7 +205,7 @@ const CONFIG = {
   //   snippetVersion: 6,
   // },
   themeConfig: {
-    defaultTheme: 'night',
+    defaultTheme: 'procyon',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -220,14 +220,14 @@ const CONFIG = {
     
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'night',
+      'procyon',
       'light',
       'dark',
       'black',
+      'night',
       'synthwave',
       // 'luxury',
       // 'autumn',
-      // 'procyon',
       // 'coffee',
       // 'aqua',
       // 'business',
@@ -257,11 +257,11 @@ const CONFIG = {
 
     // Custom theme, applied to `procyon` theme
     customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
+      primary: '#002f48',
+      secondary: '#1e2e3b',
+      accent: '#312646',
+      neutral: '#00141f',
+      'base-100': '#1b1b1b',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
