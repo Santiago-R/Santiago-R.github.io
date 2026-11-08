@@ -205,7 +205,7 @@ const CONFIG = {
   //   snippetVersion: 6,
   // },
   themeConfig: {
-    defaultTheme: 'procyon',
+    defaultTheme: 'light',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -213,16 +213,16 @@ const CONFIG = {
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: false,
     
     // Available themes. To remove any theme, exclude from here.
     themes: [
-      'procyon',
       'light',
       'dark',
+      'procyon',
       'black',
       'night',
       'synthwave',
